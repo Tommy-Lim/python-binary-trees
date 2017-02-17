@@ -10,8 +10,13 @@ class TreeNode:
 class BinaryTree:
     root = None
 
+    # current means print
+
+    # guaranteed to be sorted
     IN_ORDER_TEMPLATE   = "{left} {curr} {right}"
+
     PRE_ORDER_TEMPLATE  = "{curr} {left} {right}"
+
     POST_ORDER_TEMPLATE = "{left} {right} {curr}"
 
     # default to printing the tree using an "in order" traversal.
